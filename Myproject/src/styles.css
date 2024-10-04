@@ -1,0 +1,42 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #007bff;
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+}
+
+.container {
+    max-width: 600px;
+    margin-top: 50px;
+}
+
+#transactionStatus {
+    color: #6c757d;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+    .container {
+        margin: 20px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+}
+
